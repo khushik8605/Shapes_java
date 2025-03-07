@@ -17,6 +17,11 @@ class Main {
 
             switch (choice) {
                 case 1:
+                    System.out.print("Enter radius of Circle: ");
+                    Circle circle = new Circle(scan.nextDouble());
+                    System.out.println("Area: " + circle.calculateArea());
+                    System.out.println("Circumference: " + circle.calculatePerimeter());
+                    break;
                     
                 case 2:
                     
