@@ -30,6 +30,14 @@ class Main {
                 case 4:
                   
                 case 5:
+                    System.out.print("Enter radius of Cylinder: ");
+                    double r = scan.nextDouble();
+                    System.out.print("Enter height of Cylinder: ");
+                    double h = scan.nextDouble();
+                    Cylinder cylinder = new Cylinder(r, h);
+                    System.out.println("Surface Area: " + cylinder.calculateArea());
+                    System.out.println("Volume: " + cylinder.calculateVolume());
+                    break;
                    
                 case 6:
                    
