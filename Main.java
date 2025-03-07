@@ -24,6 +24,14 @@ class Main {
                     break;
                     
                 case 2:
+                    System.out.print("Enter length of Rectangle: ");
+                    double length = scan.nextDouble();
+                    System.out.print("Enter width of Rectangle: ");
+                    double width = scan.nextDouble();
+                    Rectangle rectangle = new Rectangle(length, width);
+                    System.out.println("Area: " + rectangle.calculateArea());
+                    System.out.println("Perimeter: " + rectangle.calculatePerimeter());
+                    break;
                     
                 case 3:
                    
