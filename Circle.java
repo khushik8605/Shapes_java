@@ -8,6 +8,11 @@ class Circle extends Shape {
         return Math.PI * dim_one * dim_one;
     }
 
+    public double calculatePerimeter() {
+        return 2 * Math.PI * dim_one;
+    }
+
+    
     
 
 }
