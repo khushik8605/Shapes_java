@@ -41,6 +41,11 @@ class Main {
                     break;
                    
                 case 4:
+                    System.out.print("Enter radius of Sphere: ");
+                    Sphere sphere = new Sphere(scan.nextDouble());
+                    System.out.println("Surface Area: " + sphere.calculateArea());
+                    System.out.println("Volume: " + sphere.calculateVolume());
+                    break;
                   
                 case 5:
                     System.out.print("Enter radius of Cylinder: ");
