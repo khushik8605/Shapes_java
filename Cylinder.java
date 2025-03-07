@@ -6,6 +6,11 @@ class Cylinder extends Shape {
     public double calculateArea() {
         return 2 * Math.PI * dim_one * (dim_one + dim_two);
     }
+     public double calculateVolume() {
+        return Math.PI * dim_one * dim_one * dim_two;
+    }
+
+     
 
     
 
