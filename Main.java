@@ -34,6 +34,11 @@ class Main {
                     break;
                     
                 case 3:
+                    System.out.print("Enter side length of Square: ");
+                    Square square = new Square(scan.nextDouble());
+                    System.out.println("Area: " + square.calculateArea());
+                    System.out.println("Perimeter: " + square.calculatePerimeter());
+                    break;
                    
                 case 4:
                   
