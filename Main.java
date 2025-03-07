@@ -58,6 +58,14 @@ class Main {
                     break;
                    
                 case 6:
+                    System.out.print("Enter base length of Square Base Pyramid: ");
+                    double base = scan.nextDouble();
+                    System.out.print("Enter height of Square Base Pyramid: ");
+                    double pyrHeight = scan.nextDouble();
+                    SquareBasePyramid pyramid = new SquareBasePyramid(base, pyrHeight);
+                    System.out.println("Surface Area: " + pyramid.calculateArea());
+                    System.out.println("Volume: " + pyramid.calculateVolume());
+                    break;
                    
                 case 0:
                     System.out.println("Exiting... Thank you!");
